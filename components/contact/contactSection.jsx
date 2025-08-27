@@ -1,4 +1,4 @@
-"use client"; // if using Next.js App Router
+"use client"; 
 
 import { useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
