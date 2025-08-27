@@ -1,6 +1,6 @@
-import { projectPreviews } from '../../ui/experience';
-import ProjectClientView from '../../ui/projectId/hero';
-import FeaturesSection from '../../ui/projectId/features';
+import { projectPreviews } from '../../components/experience';
+import ProjectClientView from '../../components/projectId/hero';
+import FeaturesSection from '../../ui/components/features';
 
 export default async function ProjectPage({ params }) {
     const param=await params
