@@ -5,8 +5,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function ContactSection() {
 
-  const githubUrl = process.env.NEXT_PUBLIC_GITHUB_URL;
-  const linkedinUrl = process.env.NEXT_PUBLIC_LINKEDIN_URL;
+  const githubUrl = process.env.GITHUB_URL;
+  const linkedinUrl = process.env.LINKEDIN_URL;
 
   const [status, setStatus] = useState("");
 
